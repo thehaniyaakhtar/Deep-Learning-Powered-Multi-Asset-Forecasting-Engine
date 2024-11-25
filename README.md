@@ -22,7 +22,6 @@ To test the accuracy of the predictions made by the model, you can test the pred
 - **TensorFlow/Keras**: For creating and training the LSTM model.
 - **yfinance**: For fetching stock price data.
 - **NewsAPI**: For retrieving financial news articles.
-- **NLTK (VADER Sentiment)**: For sentiment analysis of news articles.
 - **ta**: For calculating technical indicators like RSI.
 
 ## Setup Instructions:
@@ -34,7 +33,7 @@ To set up and run the project locally, follow these steps:
     ```
 2. Navigate to the project directory:
     ```bash
-    cd stockpulseapp
+    cd *name of directory*
     ```
 3. Create a virtual environment and activate it:
     ```bash
@@ -45,15 +44,11 @@ To set up and run the project locally, follow these steps:
     ```bash
     pip install -r requirements.txt
     ```
-5. Add your NewsAPI Key:
-    ```bash
-   newsapi = NewsApiClient(api_key='YOUR_API_KEY_HERE')
-   ```
-7. Run the Streamlit app:
+5. Run the Streamlit app:
     ```bash
     streamlit run app.py
     ```
-8. Run the StockPulse website:
+6. Run the website:
     ```bash
     python manage.py runserver
     ```
@@ -70,4 +65,3 @@ To set up and run the project locally, follow these steps:
 - [TensorFlow/Kerashttps](https://www.tensorflow.org/): For creating and training the LSTM model.
 - [yfinance](https://pypi.org/project/yfinance/): For fetching stock price data.
 - [NewsAPI](https://newsapi.org/): For retrieving financial news articles.
-- [NLTK (VADER Sentiment)](https://www.nltk.org/): For sentiment analysis of news articles.
