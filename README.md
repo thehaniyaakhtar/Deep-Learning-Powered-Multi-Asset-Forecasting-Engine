@@ -1,4 +1,4 @@
-# Stock Price Predictor and Recommendation System
+#  Deep Learning-Powered Multi-Asset Forecasting Engine
 
 ## Project Description
 This project leverages Streamlit and LSTM models to provide an intuitive platform for financial investors, brokers, and institutions. It simplifies market analysis by integrating real-time trading updates, stock news, and price trends. Using machine learning concepts, the project contributes to fintech by enhancing the accessibility and clarity of financial data, helping users make informed decisions. By combining technical innovation with a user-friendly interface, it aims to transform how markets are understood and navigated.
